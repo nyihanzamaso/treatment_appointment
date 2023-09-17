@@ -1,0 +1,16 @@
+body{
+    background-color: lightblue;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+#tr1 tr{
+width: 100%;
+}
+#tr1 tr td{
+    width: 33.3%;
+    height: 50%;
+}

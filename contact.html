@@ -1,0 +1,35 @@
+
+<script>
+		var age 
+		var name 
+		const email="nyihanzamasopaschal@gmail.com"
+		
+var age=prompt("age","enter your age")
+var name= prompt("name","enter your name")
+document.write(name+" "+age+"years <br>")
+var p= new Date();
+var hour= p.getHours();
+if(age>18){
+	document.write("allowed<br>")
+}
+else{
+	document.write("still young<br>")
+}
+if(hour>12){
+	document.write("good after noon Mr " +name+"<br>")
+}
+else{
+	document.write("good morning Mr " +name+"<br>")
+}
+document.write("<table>")
+for(d=1;d<=10;d++){
+	document.write("<tr><td>"+d+"</td><td>good morning Mr</td><td> " +name+"</td></tr>")
+}
+document.write("</table>")
+
+function addition(a,b,c){
+	var sum=a+b+c
+	document.write(sum)
+}
+var hi= addition(3,4,1)
+</script>

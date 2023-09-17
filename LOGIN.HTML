@@ -1,0 +1,71 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<title>login</title>
+	<script>
+		function myhome() {
+			var x = confirm("Dear user you're heading to the home page");
+		}
+		function myservices() {
+			var x = confirm("Dear user you're heading to the service page");
+		}
+		function mysignup() {
+			var x = confirm("Dear user you're heading to the signup page");
+		}
+		function mycontact() {
+			var x = confirm("Dear user you're heading to the contact page");
+		}
+		function mylogin(){
+			confirm("are your information filled collectly?????")
+		}
+	</script>
+</head>
+
+<body>
+	<table border="0" width="100%" height="60%">
+		<tr>
+			<td><img src="doctor2.jpg" width="100%" height="100%"></td>
+			<td><img src="doctor.jpg" width="100%" height="100%">
+			</td>
+			<td><img src="doctor3.jpg" width="100%" height="100%"></td>
+			<td><img src="doctor4.jpg" width="100%" height="100%"></td>
+		</tr>
+		<tr>
+			<td><a href="HOME.html" onclick="myhome()">HOME</a></td>
+			<td>
+				<a href="SERVICES.html" onclick="myservices()">SERVICES</a>
+			</td>
+			<td>
+				<a href="SIGN-UP.HTML" onclick="mysignup()">SIGN-UP</a>
+			</td>
+			<td><a href="CONTACT US.html" onclick="mycontact()">CONTACT US</a></td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<form align="right">
+					<textarea cols="20" rows="1" placeholder="search"></textarea>
+					<input type="submit" value="search">
+				</form>
+			</td>
+		</tr>
+	</table><br />
+	<table align="center" id="tr2">
+		<tr>
+			<td>
+				<form action="login.php" method="post">
+					<div style="color:red"; class="error"></div>
+					Email:
+					<input type="Email" name="Email" size="40" placeholder=" enter your email"></br></br>
+					Password:
+					<input type="Password" name="Password"></br></br>
+					<input type="submit" value="log-in" onclick="mylogin()"></br></br>
+					<a href="database.sql" align="left">forgot password?</a>
+					<a href="SIGN-UP.html" align="right">create account</a>
+				</form>
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>

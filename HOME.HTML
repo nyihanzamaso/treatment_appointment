@@ -1,0 +1,93 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="myproject.css">
+  <title>appointment</title>
+</head>
+<script>
+  function myloginmouseover() {
+    var x = document.getElementById("p2").onmouseout;
+    x = document.getElementById("p2").style.color = "orange";
+  }
+  function mycreateacc() {
+    var x = document.getElementById("createacc").onmouseout;
+    x = document.getElementById("createacc").style.color = "orange";
+  }
+  function myhome() {
+    var x = confirm("Dear user you're heading to the home page");
+  }
+  function myservices() {
+    var x = confirm("Dear user you're heading to the service page");
+  }
+  function mysignup() {
+    var x = confirm("Dear user you're heading to the signup page");
+  }
+  function mycontact() {
+    var x = confirm("Dear user you're heading to the contact page");
+  }
+  function mylogin() {
+    var x = confirm("Dear user you're heading to the login page")
+  }
+</script>
+
+<body>
+  <table border="0" width="100%" height="100%">
+    <tr>
+      <td><img src="doctor2.jpg" width="100%" height="100%"></td>
+      <td><img src="doctor.jpg" width="100%" height="100%">
+      </td>
+      <td><img src="doctor3.jpg" width="100%" height="100%"></td>
+      <td><img src="doctor4.jpg" width="100%" height="100%"></td>
+    </tr>
+    <tr>
+      <td><a href="HOME.html" id="myhome" onclick="myhome()">HOME</a></td>
+      <td>
+        <a href="SERVICES.html" id="myservices" onclick="myservices()">SERVICES</a>
+      </td>
+      <td>
+        <a href="SIGN-UP.HTML" id="mysignup" onclick="mysignup()">SIGN-UP</a>
+      </td>
+      <td><a href="CONTACT US.html" id="mycontact" onclick="mycontact()">CONTACT US</a></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <form align="right">
+          <textarea cols="20" rows="1" placeholder="search"></textarea>
+          <input type="submit" value="search">
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <h1 id="head1">
+          <marquee width="100%" length="100%">Welcome to Mpore clinic page</marquee>
+        </h1>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <p id="p3">
+          Do you have an account?
+          <a href="SIGN-UP.HTML" id="createacc" onmouseover="mycreateacc()">create account</a>
+        </p>
+      </td>
+      <td colspan="2">
+        <p id="p2" onmouseout="myloginmouseover()">
+          Click here to Login
+          <a href="LOGIN.html" onclick="mylogin()"><input type="submit" value="log-in">
+        </p>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td><img src="minisante.jpg" width="100%" height="100%"></td>
+      <td><img src="rbc.jpg" width="100%" height="100%"></td>
+      <td><img src="unicef.jpg" width="100%" height="100%"></td>
+      <td><img src="rssb.jpg" width="100%" height="100%"></td>
+    </tr>
+  </table>
+</body>
+
+</html>

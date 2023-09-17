@@ -1,0 +1,39 @@
+body{
+	 background-color: lightblue;
+	 background-image: url("background.jpg");
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+h1{
+	color: lightblue;
+}
+#head1{
+	color:lightblue;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#p1{
+	color:lightblue;
+	font-size:20px;
+}
+table tr{
+width:100%;
+height: 100%;
+}
+table td{
+	width:25%;
+	height:100%;
+}
+#p2{
+	text-align: right;
+	font-size: 30px;
+	color: black;
+}
+#p3{
+	font-size: 30px;
+}
+input{
+	box-sizing: 30px;
+}

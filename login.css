@@ -1,0 +1,17 @@
+body{
+    background-color: lightblue;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tr2{
+    background-color: rgb(0, 183, 255);
+    border-style: groove;
+    border-color: rgba(53, 53, 53, 0.158);
+    border-radius: 30px;
+    padding: 20px 20px 20px;
+   
+}
+a{
+    text-decoration: none;
+}
